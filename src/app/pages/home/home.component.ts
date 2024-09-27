@@ -29,7 +29,30 @@ export class HomeComponent {
       version: 'PS4 | PS3 | PS Vita',
       price: '$14.99',
       image: 'assets/bt-5.jpg',
+      cardLabel: 'Cross Buy',
+    },
+    {
+      title: 'Play It Now!',
+      type: 'Digital Game',
+      version: 'PS4 | PS3 | PS Vita',
+      price: '$14.99',
+      image: 'assets/ac-cover.jpg',
       cardLabel: 'Exclusive',
+    },
+    {
+      title: 'Play It Now!',
+      type: 'Digital Game',
+      version: 'PS4 | PS3 | PS Vita',
+      price: '$14.99',
+      image: 'assets/bt-bad-company-2.jpg',
+      cardLabel: 'Cross Buy',
+    },
+    {
+      title: 'Play It Now!',
+      type: 'Digital Game',
+      version: 'PS4 | PS3 | PS Vita',
+      price: '$14.99',
+      image: 'assets/bt-hardline.jpg',
     },
   ]
 }
