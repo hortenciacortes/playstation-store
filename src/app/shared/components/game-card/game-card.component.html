@@ -1,4 +1,12 @@
 <section>
-  <app-card-label></app-card-label>
-  <app-card-pricing></app-card-pricing>
+  <img [src]="game?.image">
+
+  <app-card-label
+    *ngIf="game.cardLabel"
+    [label]="game.cardLabel"
+  ></app-card-label>
+
+  <app-card-pricing
+    [dataGame]="game"
+  ></app-card-pricing>
 </section>

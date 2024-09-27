@@ -1,1 +1,6 @@
-<app-game-card></app-game-card>
+<main >
+  <app-game-card
+    *ngFor="let item of listGames"
+    [game]="item"
+  ></app-game-card>
+</main>

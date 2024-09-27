@@ -1,21 +1,34 @@
 section {
-  height              : 600px;
-  width               : 400px;
+  position        : relative;
+  height          : 600px;
+  width           : 500px;
+  border-radius   : 8px;
+  overflow        : hidden;
 
-  position            : relative;
-  background-image    : url('../../../../assets/bt-1.jpg');
-  background-repeat   : no-repeat;
-  background-size     : cover;
+  img {
+    height        : 100%;
+    width         : 100%;
+    object-fit    : cover;
+    border-radius : 8px;
+    transition    : transform .8s;
+  }
+
+  img:hover {
+    transform     : scale(1.1);
+    cursor        : pointer;
+  }
 
   app-card-label {
-    position          : absolute;
-    bottom            : 100px;
-    right             : 0px;
+    position      : absolute;
+    bottom        : 100px;
+    right         : 0px;
   }
 
   app-card-pricing {
-    position          : absolute;
-    bottom            : 0px;
-    width             : 100%;
+    position      : absolute;
+    bottom        : 0px;
+    right         : 0;
+    width         : 100%;
+    z-index       : 1;
   }
 }
