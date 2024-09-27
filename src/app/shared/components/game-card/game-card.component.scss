@@ -1,0 +1,21 @@
+section {
+  height              : 600px;
+  width               : 400px;
+
+  position            : relative;
+  background-image    : url('../../../../assets/bt-1.jpg');
+  background-repeat   : no-repeat;
+  background-size     : cover;
+
+  app-card-label {
+    position          : absolute;
+    bottom            : 100px;
+    right             : 0px;
+  }
+
+  app-card-pricing {
+    position          : absolute;
+    bottom            : 0px;
+    width             : 100%;
+  }
+}
